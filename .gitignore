@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated project folders
+# The generator creates project folders based on user input.
+# We recommend not committing them back to this repository.
+# This entry will ignore any directory that doesn't contain a dot,
+# effectively ignoring the generated project folders while keeping .venv etc.
+*
+
+# But we need to explicitly keep the generator script itself!
+!run.py
+!README.md
+!LICENSE
+!.gitignore
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo

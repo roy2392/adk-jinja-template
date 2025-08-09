@@ -1,0 +1,17 @@
+# Core Libraries
+fastapi
+uvicorn
+pydantic
+
+# LLM Libraries
+openai
+anthropic
+google-generativeai
+
+# Data Handling
+pandas
+numpy
+
+# Utilities
+python-dotenv
+loguru
